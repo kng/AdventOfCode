@@ -1,0 +1,11 @@
+[MASTER]
+ignore-paths=^.venv/.*$
+
+[MESSAGES CONTROL]
+disable=
+    C0103, # invalid-name
+    C0114, # missing-module-docstring
+    C0116, # missing-function-docstring
+    C0209, # consider-using-f-string
+    R0912, # too-many-branches
+    R0915, # too-many-statements

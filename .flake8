@@ -1,0 +1,9 @@
+[flake8]  
+# Ignore specific rules  
+# ignore = E501, F401  
+ 
+# Optional: Adjust line length instead of ignoring E501  
+max-line-length = 120
+ 
+# Optional: Exclude files/directories (e.g., virtual envs, tests)  
+exclude = .git, .idea, .venv
